@@ -66,6 +66,9 @@ nav a:hover
       background: url(../img/bg-features.png);
       color: white;
       padding-top: 1rem;
+      background-size: cover;
+      height: 18em;
+      width: 100%;
 }
 .features-title
 {
@@ -79,6 +82,7 @@ nav a:hover
       display: flex;
       flex-flow: row wrap;
       justify-content: space-around;
+      margin-top: 2%;
 }
 .feature
 {
@@ -238,6 +242,10 @@ nav a:hover
       flex-wrap: nowrap;
       flex-direction: column;
 }
+.redes
+{
+      margin-top: 4%;
+}
 .icons div
 {
       display:flex;
@@ -315,6 +323,7 @@ nav a:hover
       height: 100%;
       width: 27em;
       background: linear-gradient(49.54deg, #337AB7 6%, #0B3860 90.34%);
+      margin-left: 1%;
 }
 .nombre img
 {
@@ -329,9 +338,24 @@ nav a:hover
 }
 
 /*Resolucion Desktop*/
-@media screen and (min-width: 1025px) and (max-width: 1328px)
+@media screen and (min-width: 769px)
 {
-      
+      .logo i
+      {
+            display: none;
+      }
+      .menu-hr
+      {
+            display: none;
+      }
+      .parrafo3 hr
+      {
+            display: none;
+      }
+      .parrafo4 hr
+      {
+            display: none;
+      }
 }
 
 /* Resoluciòn Movile*/
