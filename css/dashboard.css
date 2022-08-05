@@ -45,7 +45,7 @@ ul{
     justify-content: center;
     align-items: center;
 }
-.menu{
+.menuizq{
       width: 17%;   
       color: white;
       display: flex;
@@ -220,7 +220,7 @@ a{
 }
 
 .form a{
-    display: 	flex;
+    display:    flex;
     background: var(--negro);
     width: 15em;
     height: 3em;
@@ -386,5 +386,4 @@ a{
     {
         display: none;
     }
-
 }
