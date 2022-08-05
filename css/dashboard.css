@@ -207,6 +207,11 @@ a{
 .form .radio{
     display: flex;
     padding: 0em;
+    margin-left: -3%;
+}
+.form.separador
+{
+    margin-left: -6%;
 }
 
 .form-row-2{
@@ -245,7 +250,7 @@ a{
 
 /********************/
 
-@media screen and (max-width: 960px){
+@media screen and (max-width: 1080px){
     .logo .desktop{
         display: none;
     }.logo .mobile{
@@ -346,7 +351,7 @@ a{
         width: 90%;
     }
     .form input[type=radio]{
-        width: 1em;
+        width: 2em;
         
     }
     .form-row-2{
@@ -359,4 +364,27 @@ a{
     .password{
         display: none;
     }
+    .form.separador
+    {
+        margin-left: 2%;
+    }
+    .form .radio
+    {
+        margin-left: 2%;
+    }
+}
+@media screen and (min-width: 1081px) and (max-width: 1300px){
+    .foto img 
+    {
+        display: none;
+    }
+    .iconos
+    {
+        display: none;
+    }
+    .password
+    {
+        display: none;
+    }
+
 }
