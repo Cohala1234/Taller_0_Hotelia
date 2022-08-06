@@ -68,7 +68,7 @@ nav a:hover
       padding-top: 1rem;
       background-size: cover;
       width: 100%;
-      height: 27em;
+      height: 20em;
 }
 .features-title
 {
@@ -131,13 +131,13 @@ nav a:hover
 #parrafo p
 {
       position: absolute;
-      margin-top: -16%;
+      margin-top: -17%;
       font-family: 'Marcellus', serif;
       font-size: 3rem;
-      background-color: rgba(29, 21, 21, 0.158);
+      background-color: rgba(29, 21, 21, 0.62);
       color: white;
       width: 100%;
-      height: 37%;
+      height: 28%;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -183,7 +183,7 @@ nav a:hover
 {
       display: flex;
       justify-content: center;
-      padding: 1rem;
+      padding: 3rem;
 }
 .mapa iframe
 {
@@ -220,7 +220,7 @@ nav a:hover
 {
       background-color: var(--negro);
       color: white;
-      padding: 2%;
+      padding: 1%;
 }
 .footer-container .text-footer
 {
@@ -322,7 +322,7 @@ nav a:hover
       height: 100%;
       width: 27em;
       background: linear-gradient(49.54deg, #337AB7 6%, #0B3860 90.34%);
-      margin-left: 5%;
+      margin-left: 1%;
 }
 .nombre img
 {
@@ -521,6 +521,6 @@ nav a:hover
             padding-top: 1rem;
             background-size: cover;
             width: 100%;
-            height: 28em;
+            height: 32em;
       }
 }
