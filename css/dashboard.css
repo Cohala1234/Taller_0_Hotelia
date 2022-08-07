@@ -287,6 +287,10 @@ i#icono
     justify-content: center;
     align-items: center;
 }
+.formulario.separador
+{
+    margin-left: 4%;
+}
 
 
 /********************/

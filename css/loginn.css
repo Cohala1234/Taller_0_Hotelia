@@ -20,7 +20,7 @@
 }
 body
 {
-    background: url(../img/habitacion.jpeg) no-repeat;
+    background: url(../img/habitacionLogin.jpg) no-repeat;
     background-size: cover;
     color: white;
     padding-top: 8rem;
@@ -117,19 +117,17 @@ p
     padding: 1rem;
 }
 
-
-/*Resolucion Mobile*/
-@media screen and (min-width: 480px) and (max-width:768px){
-
+@media screen and (max-width:900px)
+{
     *
     {
         margin: 0;
     }
     body
     {
-        background: url(../img/habitacion.jpeg) no-repeat;
+        background: url(../img/habitacionLogin.jpg) no-repeat;
         background-size: cover;
-        height: 50em;
+        height: 40rem;
         color: white;
         padding-top: 5rem;
     }
@@ -150,8 +148,8 @@ p
         justify-content: center;
         background: url(../img/login.svg) no-repeat;
         opacity: 0.82;
-        width: 300px;
-        height: 51%;
+        width: 290px;
+        height: 60%;
         border-radius: 2px;
         margin-left: auto;
         margin-right: auto;
@@ -191,12 +189,14 @@ p
         font-family: 'Roboto', sans-serif;
         text-shadow: -1px 1px rgb(97, 97, 97);
     }
-    input{
+    input
+    {
         padding-bottom: 8px;
         border: none;
         padding-left: 0.5rem;
         border-radius: 2px;
-        box-shadow: 0px 1px rgba(97, 97, 97,500);
+        box-shadow: 0px 1px rgb(97 97 97);
+        width: 17em;
     }
     #boton
     {
@@ -216,8 +216,7 @@ p
     }
 }
 
-/*Resolucion Notebooks*/
-@media screen and (min-width: 769px)
+@media screen and (min-width: 901px)
 {
     *
     {
@@ -225,11 +224,10 @@ p
     }
     body
     {
-        background: url(../img/habitacion.jpeg) no-repeat;
+        background: url(../img/habitacionLogin.jpg) no-repeat;
         background-size: cover;
         color: white;
         padding-top: 5rem;
-        height: 50em;
     }
     #logo img
     {
@@ -247,14 +245,14 @@ p
         flex-direction: column;
         justify-content: center;
         opacity: 0.82;
-        width: 300px;
+        width: 285px;
         padding-bottom: 2rem;
         border-radius: 2px;
         margin-left: auto;
         margin-right: auto;
         background-size: cover;
-        margin-top: 5%;
-        height: 57%;
+        margin-top: 3%;
+        height: 67%;
     }
     .login
     {
