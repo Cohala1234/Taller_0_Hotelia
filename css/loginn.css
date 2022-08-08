@@ -116,7 +116,11 @@ p
     justify-content: flex-start;
     padding: 1rem;
 }
-
+a
+{
+    text-decoration: none;
+    color: white;
+}
 @media screen and (max-width:900px)
 {
     *

@@ -136,7 +136,7 @@ i#icono
 .menuder
 {
     height: 100vh;
-    background-image: url(/img/fondodashboard2.jpg);
+    background-image: url(../img/fondodashboard2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -249,11 +249,11 @@ i#icono
 {
     display: flex;
     padding: 0em;
-    margin-left: -3%;
-}
-.formulario.separador
-{
     margin-left: -6%;
+}
+.formulario.separadorr
+{
+    margin-left: 4%;
 }
 .contenedor3
 {
@@ -289,7 +289,7 @@ i#icono
 }
 .formulario.separador
 {
-    margin-left: 4%;
+    margin-left: -7%;
 }
 
 
@@ -459,7 +459,7 @@ i#icono
 }
 
 
-@media screen and (min-width: 1081px) and (max-width: 1300px)
+@media screen and (min-width: 1081px) and (max-width:1399px)
 {
     .fotomenuder img 
     {
@@ -473,4 +473,15 @@ i#icono
     {
         display: none;
     }
+}
+@media screen and (min-width: 1300px)
+{
+    .menuderabajo
+    {
+        display: flex;
+        flex-direction: row;
+        width: 91%;
+        margin-left: 3%;
+    }
+    
 }
