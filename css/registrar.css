@@ -86,7 +86,6 @@
     }
     input
     {
-        width: 100%;
         padding: 2%;
         border: none;
         border-bottom: var(--gris) solid .2em;  
@@ -98,6 +97,11 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
+    }
+    .terminosCondiciones2 a
+    {
+        text-decoration: none;
+        color: var(--negro2);
     }
     .termino2
     {
@@ -269,6 +273,11 @@
         align-items: center;
         justify-content: center;
         margin-top: 1rem;
+    }
+    .terminosCondiciones a
+    {
+        text-decoration: none;
+        color: var(--negro2);
     }
     .termino
     {
