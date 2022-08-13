@@ -17,10 +17,13 @@
 *
 {
     margin: 0%;
-} h1,h2,h3,h4,h5{
+} 
+h1,h2,h3,h4,h5
+{
     font-family: 'Marcellus', serif;
 }
-#all {
+#all 
+{
     display: grid;
     grid-template:
         "nav" auto
@@ -31,7 +34,8 @@
         "opinion" auto
         "pie-pagina" auto
 }
-nav {
+nav 
+{
     grid-area: nav;
     display: grid;
     grid-template-areas:
@@ -40,14 +44,13 @@ nav {
     font-family: 'Marcellus', serif;
     font-size: 1.3em;
     position: fixed;
-width: 100%;
-z-index: 100;
+    width: 100%;
+    z-index: 100;
 }
-
-.logo {
+.logo 
+{
     grid-area: logo;
     display: grid;
-    
     grid-template-columns: auto auto;
     grid-template-rows: auto;
     grid-template-areas:
@@ -55,58 +58,61 @@ z-index: 100;
     background-color: var(--negro2);
     padding: 1rem;
 }
-
-.logo img {
+.logo img 
+{
     justify-self: start;
     width: 50%;
     max-width: 180px;
 }
-
-.logo i {
+.logo i 
+{
     grid-area: menu-bars;
     justify-self: end;
     color: var(--blanco);
     font-size: 2rem;
 }
-.menu {
+.menu 
+{
     grid-area: menu;
     display: grid;
     background-color: rgb(1, 10, 52);
 }
-.menu{
+.menu
+{
     display: none;
 }
-.menu.active{
+.menu.active
+{
     display: grid;
     transform: translateY(0%);
 }
-
-#con-text{
+#con-text
+{
     font-family: 'Marcellus', serif;
 }
-
-.menu-hr {
+.menu-hr 
+{
     width: 90%;
     background-color: var(--blanco);
     justify-self: center; /*para centrar el hr*/
 }
- 
-.item {
+.item 
+{
     padding: 1rem 0;
 }
- 
-nav a {
+nav a 
+{
     color: var(--blanco);
     text-decoration: none;
     text-align: center;
 }
- 
-nav a:hover {
+nav a:hover 
+{
     background-color: #0B3860;
     width: 100%;
 }
- 
-.navbar-button {
+.navbar-button 
+{
     background-color: transparent;
     border: none;
     border-radius: 3px;
