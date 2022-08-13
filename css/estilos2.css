@@ -68,7 +68,6 @@ z-index: 100;
     color: var(--blanco);
     font-size: 2rem;
 }
-
 .menu {
     grid-area: menu;
     display: grid;
